@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Reclamação</title>
+</head>
+
+<body>
+    <h1>Enviar Reclamação</h1>
+
+    <label for="campo-nome">Nome:</label>
+    <input type="text" id="campo-nome"><br><br>
+
+    <label for="campo-email">E-mail:</label>
+    <input type="email" id="campo-email"><br><br>
+
+    <label for="campo-reclamacao">Reclamação:</label><br>
+    <textarea id="campo-reclamacao" rows="5" cols="40"></textarea><br><br>
+
+    <button onclick="enviarReclamacao()">Enviar Reclamação</button>
+
+    <h2>Reclamações Registradas:</h2>
+    <textarea id="campo-reclamacoes" rows="10" cols="60" readonly></textarea>
+
+    <script src="../assets/js/exercicio02-reclamacao.js"></script>
+</body>
+
+</html>

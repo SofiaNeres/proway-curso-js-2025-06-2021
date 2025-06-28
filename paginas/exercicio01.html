@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+</head>
+
+<body>
+    <h1>Cadastro de Produto</h1>
+
+    <label for="campo-nome">Nome do Produto:</label>
+    <input type="text" id="campo-nome"><br><br>
+
+    <label for="campo-quantidade">Quantidade:</label>
+    <input type="number" id="campo-quantidade"><br><br>
+
+    <label for="campo-preco">Preço Unitário:</label>
+    <input type="number" id="campo-preco" step="0.01"><br><br>
+
+    <button onclick="cadastrar()">Cadastrar</button>
+
+    <h2>Produto Cadastrado:</h2>
+    <textarea id="campo-produtos" rows="10" cols="40" readonly></textarea>
+
+    <script src="../assets/js/exercicio01.js"></script>
+
+    <span id="campo-total">Total: R$ 0,00</span><br><br>
+
+</body>
+
+</html>
